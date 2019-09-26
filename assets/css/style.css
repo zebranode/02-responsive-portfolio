@@ -64,6 +64,7 @@ img {
     vertical-align: center;
     padding:.5em;
     margin:0;
+    z-index:5;
 }
 /* contact */
 .btn {
