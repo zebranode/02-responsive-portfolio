@@ -77,6 +77,31 @@ img {
     background-color: #4aaaa5;
     opacity: .75;
 }
+/* portfolio */
+#gallery {
+    width: 100%;
+    margin-bottom:1em;
+}
+#gallery a {
+    margin: .5em;
+    position:relative;
+}
+img.thumbnailimg {
+    padding:0;
+    margin:0;
+    float:none;
+}
+.banner {
+    position:absolute;
+    width: 100%;
+    bottom:1em;
+    left:0;
+    z-index:2;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align:center;
+    padding: 1em 0em;
+}
 /* responsive media queries */
 @media only screen and (max-width: 768px) {
     #name {
@@ -85,7 +110,6 @@ img {
     }
     #header .container {
         padding:0;
-
         max-width:100%;
     }
     #nav {
