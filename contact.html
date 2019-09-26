@@ -11,6 +11,55 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- header -->      
+    <div id="header">
+        <div class="container">
+            <div class="row">
+            <div id="namecol" class="col-md-8"><h1 id="name">Brian Moore</h1></div>
+            <!-- nav links -->
+            <div id="nav" class="col-md-4">
+                <ul> 
+                    <li><a href="index.html">About</a></li>
+                    <li class="light-grey">|</li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="light-grey">|</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- main content -->
+    <div class="container">
+        <div class="row">
+            <div id="content" class="col-md-8">
+                <h1 class="section-heading">About Me</h1>
+                <hr>
+                <form>
+                    <div class="form-group">
+                        <label for="formName">Name</label>
+                        <input type="text" class="form-control" id="formName" name="user_name" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="formMail">Email</label>
+                        <input type="email" class="form-control" id="formMail" name="user_mail" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="formMsg">Message</label>
+                        <textarea class="form-control" id="formMsg" name="user_message" rows="3"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                    </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>    
+    </div>
+    <!-- footer -->
+    <div id="footer" class="row">
+        <div class="col-md-12">Copyright &copy; 2019</div>
+    </div>
 <!-- Boostrap JS  -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

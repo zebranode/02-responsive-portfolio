@@ -65,6 +65,18 @@ img {
     padding:.5em;
     margin:0;
 }
+/* contact */
+.btn {
+    background-color: #4aaaa5;
+    border: none;
+    border-radius: 0;
+    padding:.5em 1em;
+    margin-bottom:1em;
+}
+.btn:hover {
+    background-color: #4aaaa5;
+    opacity: .75;
+}
 /* responsive media queries */
 @media only screen and (max-width: 768px) {
     #name {
