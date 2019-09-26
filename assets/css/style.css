@@ -122,6 +122,6 @@ img.thumbnailimg {
         padding:.5em;
     }
     ul {
-        position: relative;
+        position: static;
     }
   }
