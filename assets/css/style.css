@@ -52,6 +52,9 @@ img {
     border: 3px solid #dddddd;
     background-color: #ffffff;
 }
+.section-heading {
+    margin-top:.4em;
+}
 /* footer */
 #footer {
     width: 100%;
