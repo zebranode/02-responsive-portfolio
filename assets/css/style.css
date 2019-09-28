@@ -66,7 +66,7 @@ li {
 }
 /* about */
 .about {
-    max-width:767px !important;
+    max-width:767px;
 }
 .aboutimg {
     max-width:100%;
@@ -80,7 +80,7 @@ li {
 }
 /* contact */
 .contact {
-    max-width:767px !important;
+    max-width:767px;
 }
 .btn {
     background-color: #4aaaa5;
@@ -94,6 +94,9 @@ li {
     opacity: .75;
 }
 /* portfolio */
+.portfolio {
+    max-width:767px;
+}
 #gallery {
     width: 100%;
     margin-bottom:1em;
@@ -102,12 +105,17 @@ li {
     margin: .5em;
     position:relative;
 }
+.thumbnail {
+    max-width: 300px;
+    display:inline-block;
+}
 img.thumbnailimg {
     padding:0;
     margin:0;
     float:none;
-    height:300px;
-    width:300px;
+    max-width:100%;
+    /* height:300px;
+    width:300px; */
 }
 .banner {
     position:absolute;
@@ -139,6 +147,10 @@ img.thumbnailimg {
         position: static;
     }
     .aboutimgframe {
+        max-width:500px;
+        margin: 0 auto;
+    }
+    .thumbnail {
         max-width:500px;
         margin: 0 auto;
     }
