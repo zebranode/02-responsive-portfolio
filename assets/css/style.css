@@ -155,4 +155,7 @@ img.thumbnailimg {
         max-width:500px;
         margin: 0 auto;
     }
+    #gallery a {
+        margin-bottom: 1em;
+    }
   }
