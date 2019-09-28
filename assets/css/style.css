@@ -1,7 +1,7 @@
 /* general */
 body {
     position:relative;
-    min-height: 1vh;
+    /* min-height: 1vh; */
     background-image: url("../images/dust_scratches.png");
     background-repeat: repeat;
     color: #777777;
@@ -17,7 +17,7 @@ h1 {
     background-color: #ffffff;
 }
 #namecol{
-    padding-left: 0 !important;
+    padding-left: 0;
 }
 #name {
     color:white;
