@@ -1,7 +1,6 @@
 /* general */
 body {
     position:relative;
-    /* min-height: 1vh; */
     background-image: url("../images/dust_scratches.png");
     background-repeat: repeat;
     color: #777777;
@@ -44,10 +43,6 @@ li {
     color: #dddddd;
 }
 /* content */
-img {
-    float:left;
-    margin: 0 1em 1em 0;
-}
 #content {
     border: 3px solid #dddddd;
     background-color: #ffffff;
@@ -72,6 +67,16 @@ img {
 /* about */
 .about {
     max-width:767px !important;
+}
+.aboutimg {
+    max-width:100%;
+}
+.aboutimgframe {
+    margin: 0 1em 1em 0;
+    float:left;
+    max-width:250px;
+    position:relative;
+    display:inline;
 }
 /* contact */
 .contact {
@@ -132,5 +137,9 @@ img.thumbnailimg {
     }
     ul {
         position: static;
+    }
+    .aboutimgframe {
+        max-width:500px;
+        margin: 0 auto;
     }
   }
