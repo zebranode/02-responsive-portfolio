@@ -70,6 +70,9 @@ img {
     z-index:5;
 }
 /* contact */
+.contact {
+    max-width:767px !important;
+}
 .btn {
     background-color: #4aaaa5;
     border: none;
@@ -94,6 +97,8 @@ img.thumbnailimg {
     padding:0;
     margin:0;
     float:none;
+    height:300px;
+    width:300px;
 }
 .banner {
     position:absolute;
@@ -107,7 +112,7 @@ img.thumbnailimg {
     padding: 1em 0em;
 }
 /* responsive media queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #name {
       display:block;
       text-align:center;
