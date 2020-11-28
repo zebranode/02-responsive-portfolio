@@ -7,6 +7,6 @@ A responsive portfolio using the Bootstrap CSS Framework.
 ![CSS](https://img.shields.io/badge/CSS-blue)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-purple)
 
-Live Site: https://onecheesepizza.github.io/02-responsive-portfolio/
+Live Site: https://zebranode.github.io/02-responsive-portfolio/
 
 ![Screenshot](assets/images/02-portfolio-screenshot.png)
